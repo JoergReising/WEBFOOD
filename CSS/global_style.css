@@ -1,0 +1,27 @@
+:root {
+  --tomato-red: 255, 99, 71;
+  --cheddar-yellow: 255, 215, 0;
+  --lettuce-green: 76, 175, 80;
+  --french-fry-brown: 244, 164, 96;
+  --burgundy: 128, 0, 32;
+  --creamy-white: 255, 253, 208;
+  --ketchup-red: 191, 91, 91;
+  --mustard-yellow: 255, 204, 0;
+  --charcoal-gray: 51, 51, 51;
+  --sky-blue: 135, 206, 235;
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  background-color: rgba(var(--creamy-white), 1);
+  width: 100%;
+}
+
+h1 {
+  color: rgba(var(--charcoal-gray), 1);
+}
+
+a {
+  color: rgba(var(--charcoal-gray), 1);
+}
